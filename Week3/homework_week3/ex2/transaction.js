@@ -4,7 +4,7 @@ import { promisify } from "util";
 const connection = createConnection({
   host: "localhost",
   user: "hyfuser",
-  password: "hyfpassword",
+  password: "Hyfpassword01!",
   database: "Transactions",
 });
 const excQuery = promisify(connection.query.bind(connection));

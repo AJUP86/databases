@@ -3,7 +3,7 @@ import { createConnection } from "mysql";
 const connection = createConnection({
   host: "localhost",
   user: "hyfuser",
-  password: "hyfpassword",
+  password: "Hyfpassword01!",
   database: "Transactions",
 });
 
